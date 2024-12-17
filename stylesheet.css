@@ -1,62 +1,63 @@
 body {
     background-color: #FBD597;
 }
-.present_box {
-    height: 80vh;
-    width: 120vh;
-    background: #A40605;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid black 2px;
-    align-self: center;
-}
+
 .present_body {
     display: flex;
     justify-content: center;
     margin-top: 18vh;
     align-items: center;
 }
+
+.present_box {
+    height: 80vh;
+    width: 120vh;
+    background: #A40605;
+    border: solid black 2px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .present_streifen_vertikal {
-    height: 80.5vh;
+    height: 100%;
     width: 20vh;
     background: #49994D;
-    margin: 0;
-    position: absolute;
-    top: 18%;
-    left: 44%;
-    z-index: 1;
-    border-left: solid black 2px;
-    border-right: solid black 2px ;
-    justify-content: center;
-
-}
-.present_streifen_horizontal{
-    height: 20vh;
-    width: 120vh;
-    background: #49994D;
-    margin: 0;
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
+
+.present_streifen_horizontal {
+    height: 20vh;
+    width: 100%;
+    background: #49994D;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1;
     border-top: solid black 2px;
-    border-bottom: solid black 2px ;
-    justify-content: center;
+    border-bottom: solid black 2px;
 }
+
 .present_bow {
-    margin: 0;
     position: absolute;
-    top: -50%;
-    left: 32%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     color: #49994D;
-    font-size: 50vw;
+    font-size: 40vw;
+    max-font-size: 50vw;
     z-index: 2;
     font-weight: bold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
 }
 
 .open_button {
@@ -77,6 +78,7 @@ body {
 .open_button:hover {
     background-color: #ebf36b;
 }
+
 .present_image {
     max-width: 100%;
     max-height: 100%;
