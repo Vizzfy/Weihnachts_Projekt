@@ -24,7 +24,7 @@ function currentSlide(n, carouselId) {
     showSlides(slideIndex[carouselId] = n, carouselId);
 }
 
-// Initialize all carousels
+
 document.addEventListener("DOMContentLoaded", function () {
     let carousels = document.querySelectorAll('.slideshow-container');
     carousels.forEach(carousel => {
@@ -59,7 +59,7 @@ function createSnowflake() {
         });
     }
 
-    // Erhöhte Anzahl der Schneeflocken
+    // mehr flöckis
     for (let i = 0; i < 100; i++) {
         snowflake();
     }
