@@ -65,5 +65,6 @@ function createSnowflake() {
     }
 }
 
+
 // Ruft die Funktion auf, wenn die Seite lädt
 window.addEventListener('load', createSnowflake);
