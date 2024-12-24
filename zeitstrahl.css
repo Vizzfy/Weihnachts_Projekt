@@ -41,6 +41,54 @@ header {
 .header-text p {
     color: #ffe7e7;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ending{
+    background: linear-gradient(to right, #107000, #25cd0a);
+    color: white;
+    padding: 20px 80px;
+    border-radius: 10px;
+    z-index: 1;
+    font-size: 24px;
+}
+.ending p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: inherit;
+   background: linear-gradient(to right, #e32b2b, #500000);
+}
+
+footer nav ul li a {
+    color: #fff;
+    padding: 10px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    background-color: #d81110;
+}
+
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
 
 
 ul {
@@ -264,6 +312,14 @@ h2 {
     z-index: 2;
 }
 
+   .ending{
+    background: linear-gradient(to right, #107000, #25cd0a);
+    color: white;
+    padding: 20px 5px;
+    border-radius: 10px;
+    z-index: 1;
+    font-size: 24px;
+   }
     .timelin-main li > div {
         width: 100%;
         padding: 20px 10px; /* Adjusted padding for better spacing */
@@ -457,6 +513,7 @@ h2 {
     font-weight: bold;
     top: 0;
 }
+
 
 /* The dots/bullets/indicators */
 .dot {

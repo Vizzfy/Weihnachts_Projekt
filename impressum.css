@@ -1,0 +1,76 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0c3823;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3E%3Ccircle cx='25' cy='25' r='2' fill='%23ffffff' opacity='0.2'/%3E%3C/svg%3E");
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #14522f;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border: 2px solid #c41e3a;
+}
+
+h1 {
+    color: #c41e3a;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section {
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border-left: 4px solid #c41e3a;
+}
+
+h2 {
+    color: #ffd700;
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    display: grid;
+    gap: 10px;
+}
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #c41e3a;
+    color: #ffd700;
+}
+
+/* Christmas decoration */
+.holly {
+    text-align: center;
+    font-size: 24px;
+    color: #c41e3a;
+    margin: 10px 0;
+
+}
+.back{
+    display: flex;
+    justify-content: center;
+}
